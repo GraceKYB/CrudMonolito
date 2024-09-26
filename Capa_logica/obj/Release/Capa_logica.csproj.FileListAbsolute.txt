@@ -1,0 +1,10 @@
+C:\Users\Grace\source\repos\CrudMonolito\Capa_logica\bin\Release\Capa_logica.dll
+C:\Users\Grace\source\repos\CrudMonolito\Capa_logica\bin\Release\Capa_logica.pdb
+C:\Users\Grace\source\repos\CrudMonolito\Capa_logica\bin\Release\Capa_Datos.dll
+C:\Users\Grace\source\repos\CrudMonolito\Capa_logica\bin\Release\Capa_Datos.pdb
+C:\Users\Grace\source\repos\CrudMonolito\Capa_logica\bin\Release\Capa_Datos.dll.config
+C:\Users\Grace\source\repos\CrudMonolito\Capa_logica\obj\Release\Capa_logica.csproj.AssemblyReference.cache
+C:\Users\Grace\source\repos\CrudMonolito\Capa_logica\obj\Release\Capa_logica.csproj.CoreCompileInputs.cache
+C:\Users\Grace\source\repos\CrudMonolito\Capa_logica\obj\Release\Capa_logica.csproj.CopyComplete
+C:\Users\Grace\source\repos\CrudMonolito\Capa_logica\obj\Release\Capa_logica.dll
+C:\Users\Grace\source\repos\CrudMonolito\Capa_logica\obj\Release\Capa_logica.pdb

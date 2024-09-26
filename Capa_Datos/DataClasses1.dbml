@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="crudMonolito" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-LI62I77\SQLEXPRESS01;Initial Catalog=crudMonolito;Integrated Security=True;Encrypt=False" SettingsObjectName="Capa_Datos.Properties.Settings" SettingsPropertyName="crudMonolitoConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tbl_proveedor" Member="tbl_proveedor">
+    <Type Name="tbl_proveedor">
+      <Column Name="prov_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="prov_nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="prov_estado" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Association Name="tbl_proveedor_tbl_producto" Member="tbl_producto" ThisKey="prov_id" OtherKey="prov_id" Type="tbl_producto" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_producto" Member="tbl_producto">
+    <Type Name="tbl_producto">
+      <Column Name="pro_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="pro_nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="pro_cantidad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="pro_estado" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="prov_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="tbl_proveedor_tbl_producto" Member="tbl_proveedor" ThisKey="prov_id" OtherKey="prov_id" Type="tbl_proveedor" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,7 @@
+C:\Users\Grace\source\repos\CrudMonolito\Capa_Datos\bin\Debug\Capa_Datos.dll.config
+C:\Users\Grace\source\repos\CrudMonolito\Capa_Datos\bin\Debug\Capa_Datos.dll
+C:\Users\Grace\source\repos\CrudMonolito\Capa_Datos\bin\Debug\Capa_Datos.pdb
+C:\Users\Grace\source\repos\CrudMonolito\Capa_Datos\obj\Debug\Capa_Datos.csproj.AssemblyReference.cache
+C:\Users\Grace\source\repos\CrudMonolito\Capa_Datos\obj\Debug\Capa_Datos.csproj.CoreCompileInputs.cache
+C:\Users\Grace\source\repos\CrudMonolito\Capa_Datos\obj\Debug\Capa_Datos.dll
+C:\Users\Grace\source\repos\CrudMonolito\Capa_Datos\obj\Debug\Capa_Datos.pdb

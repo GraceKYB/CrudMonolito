@@ -1,0 +1,19 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="segunda.Master.cs" Inherits="CrudMonolito.mantenimiento.Site1" %>
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel</title>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderScripts" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+  <div class="main-content">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderHeader" runat="server">
+    </asp:ContentPlaceHolder>
+</div>
+
+</body>
+</html>
